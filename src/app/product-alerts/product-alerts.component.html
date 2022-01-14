@@ -1,1 +1,4 @@
-<p>product-alerts works!</p>
+<!--If the product price is over $700 then notify-->
+<p *ngIf="product && product.price > 700">
+<button>Notify Me</button>
+</p>
